@@ -10,8 +10,6 @@ import Home from "./component/home.jsx";
 
 const Clock = ({onesplace, tenths, hundredths, thousandths}) => {
     return (
-
-        
         <div
         style={{
           
@@ -21,13 +19,13 @@ const Clock = ({onesplace, tenths, hundredths, thousandths}) => {
           
         }}
       >
-        <h1 style={{ color: "Blue" }}>PST TIME ZONE</h1>
-        <h3>$ Reach a Million, Win a Million $</h3>
+        <h1 style={{ color: "Blue" }}>Simple Clock Project</h1>
+        <h3>Leivi Dominguez</h3>
         <h1>
-          {thousandths}:{hundredths}:{tenths}:{onesplace}
+          [{thousandths}{hundredths}:0{tenths}:0{onesplace}]
         </h1>
       </div>
-    );
+    )
   }
   let counter = 0
   
